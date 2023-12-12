@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <div id="container">
+        <div id="image">
+            <img src="download.png" alt="Image">
+        </div>
+
+        <div id="form">
+            <form>
+                <label>UserName:</label>
+                <input type="text" placeholder="UserName">
+                
+                <label>Password:</label>
+                <input type="password" placeholder="Password">
+
+                <label>
+                    <input type="checkbox" name="terms" required>
+                    I agree to the terms and conditions
+                </label>  
+                <input type="button" value="Login" onclick="disp()">
+                <!-- <button onclick="disp()">Login</button> -->
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
